@@ -31,8 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Flutter_Debug/Classes/**/*'
-  s.vendored_frameworks = 'Flutter_Debug/Frameworks/App.framework','Flutter_Debug/Frameworks/Flutter.framework'
+  # s.vendored_frameworks = 'Flutter_Debug/Frameworks/App.framework','Flutter_Debug/Frameworks/Flutter.framework'
   
+
+  s.static_framework = true
+  s.vendored_framework = 'Flutter_Debug/*'
+
   # s.resource_bundles = {
   #   'Flutter_Debug' => ['Flutter_Debug/Assets/*.png']
   # }
