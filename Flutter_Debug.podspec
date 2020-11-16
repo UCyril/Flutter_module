@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/UCyril/Flutter_Debug.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Flutter_Debug/Classes/*'
   # s.vendored_frameworks = 'Flutter_Debug/Frameworks/App.framework','Flutter_Debug/Frameworks/Flutter.framework'
