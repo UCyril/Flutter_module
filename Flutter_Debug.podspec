@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
 
   s.static_framework = true
-  s.vendored_framework = 'Flutter_Debug/Frameworks/*'
+  s.vendored_framework = 'Flutter_Debug/Classes/*'
 
   # s.resource_bundles = {
   #   'Flutter_Debug' => ['Flutter_Debug/Assets/*.png']
