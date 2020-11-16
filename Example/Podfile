@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Flutter_Debug_Tests' do
+  pod 'Flutter_Debug', :path => '../'
+  
+  
+end
