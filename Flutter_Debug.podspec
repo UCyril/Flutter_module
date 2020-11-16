@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Flutter_Debug'
-  s.version          = '0.2.6'
+  s.version          = '0.2.8'
   s.summary          = 'A short description of Flutter_Debug.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'Flutter_Debug/Classes/**/*'
-  s.vendored_frameworks = 'Flutter_Debug/Frameworks/App.framework','Flutter_Debug/Frameworks/Flutter.framework'
+  s.source_files = 'Flutter_Debug/Classes/**/*'
+  s.vendored_frameworks = 'Frameworks/App.framework','Frameworks/Flutter.framework'
   
   # s.resource_bundles = {
   #   'Flutter_Debug' => ['Flutter_Debug/Assets/*.png']
